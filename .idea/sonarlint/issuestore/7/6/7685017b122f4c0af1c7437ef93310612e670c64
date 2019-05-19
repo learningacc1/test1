@@ -1,0 +1,14 @@
+
+Osquid:S1481",Remove this unused "reszta1" local variable.(É‘ãûûÿÿÿÿ8À¹Æû,
+Msquid:S1481"*Remove this unused "kwota" local variable.(‘¢²€üÿÿÿÿ8š×Åû,
+\squid:S1854"9Remove this useless assignment to local variable "kwota".(‘¢²€üÿÿÿÿ8š×Åû,
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ôÎÏúÿÿÿÿ8±äÅû,
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8±äÅû,
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ8Ç÷ëÅû,
+Jsquid:S1481",Remove this unused "reszta2" local variable.(ùîóš8ÈÚâÅû,
+Ysquid:S1854";Remove this useless assignment to local variable "reszta2".(ùîóš8ÈÚâÅû,
+nsquid:CommentedOutCodeLine
+"<This block of commented-out lines of code should be removed.(ÍÑƒ—øÿÿÿÿ8 öçÅû,
+€squid:S1488 "]Immediately return this expression instead of assigning it to the temporary variable "wynik".(´¿ã…ÿÿÿÿÿ8¾èåÅû,
+^squid:S1854";Remove this useless assignment to local variable "reszta1".(É‘ãûûÿÿÿÿ8À¹Æû,
