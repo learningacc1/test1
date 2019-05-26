@@ -25,6 +25,7 @@ public class Tests {
     By button = By.id("btn");
     By checkbox = By.cssSelector("[type='checkbox']");
     By message = By.id("message");
+    By asdsa = By.id("message");
 
     @BeforeClass
     public void setUp() {
