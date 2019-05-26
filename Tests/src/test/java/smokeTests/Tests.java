@@ -19,7 +19,7 @@ public class Tests {
     protected static WebDriver driver;
     By button = By.id("btn");
     By checkbox = By.cssSelector("[type='checkbox']");
-    By message_abc = By.id("message_abc");
+    By message_xyz = By.id("message_xyz");
 
 
     @BeforeClass
@@ -41,14 +41,14 @@ public class Tests {
 
 
         WebDriverWait wait = new WebDriverWait(driver, 5);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(this.message_abc));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(this.message_xyz));
 
-        WebElement message = driver.findElement(this.message_abc);
+        WebElement message = driver.findElement(this.message_xyz);
         assertThat(message.getText()).isEqualTo("It's gone!");
 
         button.click();
         WebDriverWait wait2 = new WebDriverWait(driver, 5);
-        wait2.until(ExpectedConditions.visibilityOfElementLocated(this.message_abc));
+        wait2.until(ExpectedConditions.visibilityOfElementLocated(this.message_xyz));
 
         checkBox = driver.findElement(checkbox);
         assertThat(checkBox.isSelected()).isFalse();
