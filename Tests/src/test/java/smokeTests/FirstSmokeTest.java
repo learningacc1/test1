@@ -13,6 +13,8 @@ public class FirstSmokeTest {
                 .clickCars()
                 .setCarPickUp()
                 .setCarDropOff()
+                .clickCars()
+                .setCarDropOff()
                 .clickCarsSearchButton();
         CarsPage carsPage = new CarsPage();
 
