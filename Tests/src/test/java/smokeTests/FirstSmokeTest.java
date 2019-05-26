@@ -11,10 +11,10 @@ public class FirstSmokeTest {
     public void firstSmokeTest() {
         new HomePage()
                 .clickCars()
-                .setCarPickUp()
                 .setCarDropOff()
                 .clickCarsSearchButton();
         CarsPage carsPaasdasge = new CarsPage();
+        CarsPage cars = new CarsPage();
 
     }
 }
