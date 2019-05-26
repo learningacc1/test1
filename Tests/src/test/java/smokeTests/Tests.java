@@ -57,6 +57,7 @@ public class Tests {
         checkBox = driver.findElement(checkbox);
         assertThat(checkBox.isSelected()).isFalse();
         assertThat(checkBox.isDisplayed()).isTrue();
+        assertThat(checkBox.isDisplayed()).isTrue();
     }
 
 }
