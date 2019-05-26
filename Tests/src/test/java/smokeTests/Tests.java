@@ -6,16 +6,11 @@ import driver.DriverType;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.FluentWait;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-
-import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -24,10 +19,8 @@ public class Tests {
     protected static WebDriver driver;
     By button = By.id("btn");
     By checkbox = By.cssSelector("[type='checkbox']");
-    By message = By.id("message");
-    By message2 = By.id("message");
-    By message3 = By.id("message");
-    By message4 = By.id("message");
+    By message_abc = By.id("message_abc");
+
 
     @BeforeClass
     public void setUp() {
@@ -48,14 +41,14 @@ public class Tests {
 
 
         WebDriverWait wait = new WebDriverWait(driver, 5);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(this.message));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(this.message_abc));
 
-        WebElement message = driver.findElement(this.message);
+        WebElement message = driver.findElement(this.message_abc);
         assertThat(message.getText()).isEqualTo("It's gone!");
 
         button.click();
         WebDriverWait wait2 = new WebDriverWait(driver, 5);
-        wait2.until(ExpectedConditions.visibilityOfElementLocated(this.message));
+        wait2.until(ExpectedConditions.visibilityOfElementLocated(this.message_abc));
 
         checkBox = driver.findElement(checkbox);
         assertThat(checkBox.isSelected()).isFalse();
