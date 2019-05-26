@@ -12,6 +12,8 @@ public class FirstSmokeTest {
         new HomePage()
                 .clickCars()
                 .setCarDropOff()
+                .clickCars()
+                .setCarDropOff()
                 .clickCarsSearchButton();
         CarsPage carsPaasdasge = new CarsPage();
         CarsPage cars = new CarsPage();
