@@ -14,7 +14,7 @@ public class FirstSmokeTest {
                 .setCarPickUp()
                 .setCarDropOff()
                 .clickCarsSearchButton();
-        CarsPage carsPage = new CarsPage();
+        CarsPage carsPaasdasge = new CarsPage();
 
     }
 }
