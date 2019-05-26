@@ -17,5 +17,6 @@ public class FirstSmokeTest {
         CarsPage carsPage = new CarsPage();
         carsPage.selectCarsRandomly();
         carsPage.selectCarsRandomly();
+        carsPage.selectCarsRandomly();
     }
 }
