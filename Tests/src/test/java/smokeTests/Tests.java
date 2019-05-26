@@ -20,6 +20,8 @@ public class Tests {
     By button = By.id("btn");
     By checkbox = By.cssSelector("[type='checkbox']");
     By message_abc = By.id("message_abc");
+    By message_abc2 = By.id("message_abc");
+    By message_abc3 = By.id("message_abc");
 
 
     @BeforeClass
